@@ -212,3 +212,51 @@ footer a {
     z-index: 5;
 }
 
+
+.legal {
+    text-align: left;
+    max-width: 720px;
+    min-height: auto;
+}
+
+.legal h1 {
+    font-size: clamp(28px, 8vw, 46px);
+    line-height: 1.1;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    text-align: center;
+}
+
+.legal h2 {
+    font-size: 26px;
+    line-height: 1.15;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.legal p {
+    font-size: 17px;
+    line-height: 1.45;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.legal a {
+    color: #ffd35a;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 450px) {
+    .legal h1 {
+        font-size: 30px;
+    }
+
+    .legal h2 {
+        font-size: 24px;
+    }
+
+    .legal p {
+        font-size: 16px;
+    }
+}
