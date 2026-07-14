@@ -3,51 +3,135 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Deal Taucher – Amazon Deals direkt auf WhatsApp</title>
-  <meta name="description" content="Deal Taucher findet täglich Amazon-Angebote, Coupons und Preisfehler. Kostenlos dem WhatsApp-Kanal beitreten." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="assets/favicon.png">
 
-  <!-- Google tag (gtag.js) -->
-   <!-- redeploy -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SXYNRDTDF"></script>
+  <title>Deal Taucher – Amazon Deals direkt auf WhatsApp</title>
+
+  <meta
+    name="description"
+    content="Deal Taucher findet täglich Amazon-Angebote, Coupons und Preisfehler. Kostenlos dem WhatsApp-Kanal beitreten."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-8SXYNRDTDF"
+  ></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-8SXYNRDTDF');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "G-8SXYNRDTDF");
   </script>
 
   <!-- TikTok Pixel Code Start -->
   <script>
     !function (w, d, t) {
-      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-      var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-      ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+      w.TiktokAnalyticsObject = t;
 
+      var ttq = w[t] = w[t] || [];
 
-      ttq.load('D9AVBBRC77U102660D5G');
+      ttq.methods = [
+        "page",
+        "track",
+        "identify",
+        "instances",
+        "debug",
+        "on",
+        "off",
+        "once",
+        "ready",
+        "alias",
+        "group",
+        "enableCookie",
+        "disableCookie",
+        "holdConsent",
+        "revokeConsent",
+        "grantConsent"
+      ];
+
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      };
+
+      for (var i = 0; i < ttq.methods.length; i++) {
+        ttq.setAndDefer(ttq, ttq.methods[i]);
+      }
+
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+
+        for (var n = 0; n < ttq.methods.length; n++) {
+          ttq.setAndDefer(e, ttq.methods[n]);
+        }
+
+        return e;
+      };
+
+      ttq.load = function (e, n) {
+        var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = r;
+
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date();
+
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+
+        n = document.createElement("script");
+        n.type = "text/javascript";
+        n.async = true;
+        n.src = r + "?sdkid=" + e + "&lib=" + t;
+
+        e = document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(n, e);
+      };
+
+      ttq.load("D9AVBBRC77U102660D5G");
       ttq.page();
-    }(window, document, 'ttq');
+
+    }(window, document, "ttq");
   </script>
-<!-- TikTok Pixel Code End -->
+  <!-- TikTok Pixel Code End -->
 </head>
 
 <body>
   <main class="hero">
     <section class="card">
-      <img src="assets/logo.png" alt="Deal Taucher Logo" class="logo" />
+      <img
+        src="assets/logo.png"
+        alt="Deal Taucher Logo"
+        class="logo"
+      />
 
-      <p class="eyebrow">💎Aus der Tiefe geborgen💎</p>
+      <p class="eyebrow">💎 Aus der Tiefe geborgen 💎</p>
 
       <h1>Amazon-Angebote, die viele übersehen 👀</h1>
 
       <p class="subtitle">
-        🤿Tritt kostenlos dem Dealtaucher WhatsApp-Kanal bei und erhalte täglich neue Angebote, Coupons und Preisfehler direkt aufs Handy📲
+        🤿 Tritt kostenlos dem DealTaucher WhatsApp-Kanal bei und erhalte
+        täglich neue Angebote, Coupons und Preisfehler direkt aufs Handy 📲
       </p>
 
-      <a class="cta" href="https://whatsapp.com/channel/0029Vb8oDq4BPzjclmsVyL2b" target="_blank" rel="noopener" onclick="gtag('event', 'whatsapp_join_click');">
+      <a
+        class="cta"
+        href="https://whatsapp.com/channel/0029Vb8oDq4BPzjclmsVyL2b"
+        target="_blank"
+        rel="noopener"
+        id="whatsapp-button"
+      >
         💬 Jetzt kostenlos beitreten
       </a>
 
@@ -68,5 +152,33 @@
       </footer>
     </section>
   </main>
+
+  <!-- Google Analytics und TikTok Klick-Tracking -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const whatsappButton = document.getElementById("whatsapp-button");
+
+      if (!whatsappButton) {
+        console.warn("WhatsApp-Button für das Tracking nicht gefunden.");
+        return;
+      }
+
+      whatsappButton.addEventListener("click", function () {
+        // Google Analytics
+        if (typeof gtag === "function") {
+          gtag("event", "whatsapp_join_click", {
+            button_name: "WhatsApp-Kanal beitreten"
+          });
+        }
+
+        // TikTok Pixel
+        if (typeof ttq !== "undefined") {
+          ttq.track("ClickButton", {
+            content_name: "DealTaucher WhatsApp-Kanal"
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
